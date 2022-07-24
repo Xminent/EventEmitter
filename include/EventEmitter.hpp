@@ -6,6 +6,7 @@
 /// Represents a listener for a specific event.
 class BaseEventListener {
 public:
+    BaseEventListener() = default;
     BaseEventListener(const BaseEventListener&) = delete;
     BaseEventListener& operator=(const BaseEventListener&) = delete;
     BaseEventListener(BaseEventListener&&) = default;
